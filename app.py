@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name_)
 
-@app.route(*/')
+@app.route('/')
 def home():
     return "Merhaba, Buluttan Selam!"
